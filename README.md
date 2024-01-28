@@ -53,11 +53,12 @@ Option2:
 
 - All data is lost when the program terminates.
 - FORMAT
+  ```plaintext
   -`SET [name] [value]`
   -`GET [name]`
   -`DELETE [name]`
   -`COUNT [value]`
-
+    ```
 - Transactions can be started with `BEGIN`, rolled back with `ROLLBACK`, and committed with `COMMIT`.
 
 - `END` to exit the program
